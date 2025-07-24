@@ -1,5 +1,5 @@
 import random
-from exceptions import InvalidArgumentError
+from dice.exceptions import InvalidArgumentError
 
 class dice:
     def __init__(self, sides: int=6):
